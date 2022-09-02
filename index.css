@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Kumbh Sans', sans-serif;
+scroll-behavior: smooth;
+}
+
+/* styling body */
+body{
+background-color:#2B65D4;
+justify-content: center;
+align-items: center;
+/* height: 100vh; */
+/* background-image: linear-gradient(rgba(#5684DC), rgba(#5684DC)), url(images/theater.jpg); */
+}
+
+
+
+/* styling the h1 tags */
+ .header{
+     width: 100%;
+    min-width: 100vh;
+    padding: 5%;
+    text-align: center;
+    color: #D49A2B;
+    border-radius: 60px;
+    padding: 10px 20px;
+ }
+
+ 
+/* styling search bar */
+.container{
+    width: 100%;
+    min-width: 100vh;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submitForm{
+    width: 100%;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.submitForm input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+
+}
+.submitForm button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #D49A2B;
+    cursor: pointer;
+}
+
+/* styling bottom image */
+.img-wrapper{
+    float: left;
+ width: 33.33%;
+  /* padding: 5px; */
+}
+.grid ::after {
+    content: "";
+  clear: both;
+  display: table;
+}
+.grid img{
+    display:block:
+    height: 160px;
+    width: 160px;
+    display: flex;
+    float: left;
+}
+
+.grid img{
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  transition: 0.3s;
+}
+.grid img:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+  img{
+        max-width: 160px;
+        max-height: 160px;
+        display: block; /* remove extra space below image */
+    }
