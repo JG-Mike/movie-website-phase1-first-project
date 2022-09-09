@@ -78,7 +78,7 @@ align-items: center;
   display: table;
 }
 .grid img{
-    display:block:
+    display:block;
     height: 160px;
     width: 160px;
     display: flex;
@@ -97,3 +97,12 @@ align-items: center;
         max-height: 160px;
         display: block; /* remove extra space below image */
     }
+
+.movieDisplay h3{
+    padding-bottom: 50px;
+    text-align: center;
+    
+
+
+
+}
